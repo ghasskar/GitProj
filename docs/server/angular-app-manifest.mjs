@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/AngEX01',
+  baseHref: '/GitProj/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/AngEX01"
+    "route": "/GitProj"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 439, hash: '851d6a840a294590960ca9dae6866c0dbaf2e651bc7d5557c38a6f370d19a1dc', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 952, hash: 'ee47bbbc6b42245e9026ac488321adac38dcd4bd7e95d3e81456b2728e6b056a', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 20778, hash: '7963097ec0c38b72160f9ae616415b9de47f7e6fbd46a84053096fbed487a312', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 440, hash: '95dc70d1ad1faebf0cb5219b4928bf52f0c91b015572e7bd56ce750b7c52996b', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 953, hash: '369d03d54c0f55e1d9589b3beab338fc7664a1c898f534d11887ed9ac1cf0f3d', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 20779, hash: '8bcf288b407fd922d60b4f4660cf3fe0e7c87d4f65e47b50e29cf664ad89279b', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };

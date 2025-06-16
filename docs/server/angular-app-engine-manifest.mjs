@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/AngEX01',
+  basePath: '/GitProj',
   supportedLocales: {
   "en-US": ""
 },
